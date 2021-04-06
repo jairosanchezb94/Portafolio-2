@@ -52,7 +52,7 @@
 					<img src="img/ava.jpg" alt="Avatar">
 				</div>
 				<div class="unit-80">
-					<h1>Mi Portafolio<br><span id="typed"></span></h1>					
+					<h1>Mi Portafolio<br></h1><h2><span id="typed"></span></h2>					
 				</div>
 				<p>
 					Soy un chico joven con muchas ganas de aprender y seguir desarrollándome como programado - desarrollador me apasiona este mundo tengo conocimiento y experiencia y conocimientos en Java, Angular, Ionic, PHP JavaScript, TypeScript HTML5, CSS, XML, SQL, Python.
@@ -101,7 +101,7 @@
 	<!-- Technical Skills -->
 	<div class="skills section second" id="skills">
 		<div class="container">
-			<h1>Aptitudes &amp; validaciones<br>Skills</h1>
+			<h1>Aptitudes &amp; validaciones<br></h1>
 			<ul class="skill-list list-flat">
 				<li>Frontend</li>
 				<li>Angular / TypeScript / Ionic / JavaScript / CSS / HTML / PHP / Bootstrap entre otros.</li>
@@ -113,22 +113,20 @@
 		</div>
 	</div>
 
+	<!--Contact-->
 	<div class="container">
+		<h2>Contacto<br></h2>
 		<span class="fa fa-phone"></span> +34 625 25 15 17
 		<br>
 		<span class="far fa-envelope-open"></span> jairosanchezb5@gmail.com
 	  </div>
-    <!-- footer -->
-	<footer>
-		<div class="container">
-			<div class="redes-container">
-			<ul>
-				<li><a href="https://www.linkedin.com/in/jairo-s%C3%A1nchez-malaga/" class="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-				<br>
-				<li><a href="https://github.com/jairosanchezb94" class="Github"><i class="fab fa-github"></i></i></a></li>
-			</ul>
-		</div>
-	</footer>
+
+	<!--Redes Sociales-->
+	<br>
+	<div class="container">
+			<a class="redes" href="https://www.linkedin.com/in/jairo-s%C3%A1nchez-malaga/" class="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+			<a class="redes" href="https://github.com/jairosanchezb94" class="Github"><i class="fab fa-github"></i></a>
+	</div>
 
 	<!-- Javascript -->
 	<script type="text/javascript" src="scripts.js"></script>
@@ -138,9 +136,10 @@
     <script src="js/site.js"></script>
     <script>
 		function newTyped(){}$(function(){$("#typed").typed({
-		strings: ["soy", "lo que buscas,", "para tu empresa."],
+		strings: ["SOY", "LO QUEBUSCAS,", "PARA TU EMPRESA."],
 				//"si te gusta", "ponte en", "contacto conmigo,", "no lo dudes!"//
 		typeSpeed:110,backDelay:900,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
     </script>
 </body>
+
 </html>

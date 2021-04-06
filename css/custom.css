@@ -153,3 +153,16 @@ a:hover {
     font-size: 0.9375em;
     color: #8c8c8c; }
   
+    .redes {
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+      width: 100px;
+      background-color: rgb(255, 255, 255);
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      border-radius: 50%;
+      margin: 0 6px;
+      transition: transform 0.4s;
+  }
